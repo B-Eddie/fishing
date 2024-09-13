@@ -5,7 +5,7 @@ import mss
 import numpy
 import pytesseract
 
-
+timesleep = input("what is the cooldown: ")
 # pyautogui.alert("HI")
 mon = {'top': 50, 
        'left': 900, 
@@ -33,4 +33,4 @@ while True:
     else:
         # print("writing")
         pyautogui.typewrite('/fish\n\n')
-        time.sleep(3)
+        time.sleep(timesleep)
